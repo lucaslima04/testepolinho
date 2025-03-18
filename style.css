@@ -209,17 +209,39 @@ footer {
         scroll-snap-align: center;
         scroll-snap-type: mandatory;
         margin: 0;
+        align-items: center;
+        display: flex;
+        min-height: 0;
+        margin-block: 30px;
+    }
+
+    .imgscont{
+        height: 80%;
+        align-items: center;
+        display: flex;
+        padding: 0;
+    }
+
+    .beneficios, .avaliaçoes{
+        margin-inline: 3%;
     }
 
     .carrossel{
         min-width: 10px;
         max-width: 100%;
         gap: 20px;
+        margin-inline: 4%;
+        height: 80%;
+        align-items: center;
+        display: flex;
     }
 
     .container{
         min-width: 10px;
         max-width: 100%;
+        height: 80%;
+        align-items: center;
+        display: flex;
     }
 
     section {
