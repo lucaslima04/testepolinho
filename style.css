@@ -208,6 +208,27 @@ footer {
     margin-inline: 16px;
 }
 
+#fixw{
+    width: 53px;
+    height:53px;
+    border-radius: 50%;
+    background-color: #25D366;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.rsocfix{
+    width: 35px;
+    position: relative;
+    top: 3px;
+}
+
 .produtos{
     display: flex;
     flex-direction: column;
