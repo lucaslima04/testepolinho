@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #EFDCAB;
+    background: #dcdcdc;
 }
 
 header {
-    background-color: #382816;
+    background: linear-gradient(to right, #a6a396, #006c94);
     color: #EFDCAB;
     padding: 20px;
     text-align: center;
@@ -106,6 +106,30 @@ section {
     margin: 10px 0;
 }
 
+.atendimento{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    margin-inline: 20%;
+    border-bottom: solid 1px #D98324;
+}
+
+.divcdd{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    height: fit-content;
+    flex-direction: column;
+}
+
+h4{
+    margin: 8px;
+}
+
 .avaliaçoes{
     display: flex;
     flex-direction: column;
@@ -191,6 +215,20 @@ footer {
     align-items: center;
     text-align: center;
     margin-inline: 7%;
+    border-bottom: solid 1px #D98324;
+}
+
+.garantia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#atençao{
+    text-decoration: underline;
+    font-size: 1.2rem;
 }
 
 .orçamento{
