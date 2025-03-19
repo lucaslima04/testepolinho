@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #dcdcdc;
+    background: #ffffff;
 }
 
 header {
-    background: linear-gradient(to right, #a6a396, #006c94);
-    color: #EFDCAB;
+    background: #006c94;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ header {
     margin: 0;
     padding: 0;
     margin-block: 70px;
-    background-color: #382816;
+    background: #006c94;
     padding-block: 60px;
 }
 
@@ -63,7 +63,7 @@ header {
 }
 
 .card {
-    background: #443627;
+    background: #a6a396;
     min-height: 600px;
     min-width: 900px;
     flex: 0 0 auto;
@@ -94,7 +94,7 @@ section {
     align-items: center;
     text-align: center;
     margin-inline: 26%;
-    border-bottom: solid 1px #D98324;
+    border-bottom: solid 2px #006c94;
 }
 
 .beneficios ul, .produtos ul {
@@ -114,7 +114,7 @@ section {
     align-items: center;
     align-content: center;
     margin-inline: 20%;
-    border-bottom: solid 1px #D98324;
+    border-bottom: solid 2px #006c94;
 }
 
 .divcdd{
@@ -137,11 +137,11 @@ h4{
     align-items: center;
     text-align: center;
     margin-inline: 20%;
-    border-bottom: solid 1px #D98324;
+    border-bottom: solid 2px #006c94;
 }
 
 .avaliaçoes blockquote {
-    border-left: 4px solid #D98324;
+    border-left: 4px solid #006c94;
     margin: 20px 0;
     padding-left: 20px;
     font-style: italic;
@@ -164,18 +164,18 @@ h4{
     text-decoration: none;
     padding-inline: 30px;
     padding-block: 10px;
-    background-color: #D98324;
+    background-color: #006c94;
     border-radius: 15px;
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-block: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 
 #btnorç:hover {
-    background-color: #703f0a;
-    color: #e3eed4;
+    background-color: #023547;
+    color: #ffffff;
 }
 
 #containorç {
@@ -186,8 +186,8 @@ h4{
 }
 
 footer {
-    background: #443627;
-    color: #e3eed4;
+    background: #006c94;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -215,7 +215,7 @@ footer {
     align-items: center;
     text-align: center;
     margin-inline: 7%;
-    border-bottom: solid 1px #D98324;
+    border-bottom: solid 2px #006c94;
 }
 
 .garantia{
