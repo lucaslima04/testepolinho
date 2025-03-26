@@ -4,6 +4,12 @@ body {
     padding: 0;
     line-height: 1.6;
     background: #ffffff;
+    font-family: "Alata", serif;
+    overflow: hidden;
+}
+
+li, p, h4{
+    font-size: 1.3rem;
 }
 
 header {
@@ -11,6 +17,10 @@ header {
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #imglogo{
@@ -44,7 +54,35 @@ header {
 
 #desc{
     font-size: 1.2rem;
+    border-right: 3px solid;
+    white-space: nowrap;
+    width: 45ch;
+    overflow: hidden;
+    animation: AnimaText steps(55) 8s infinite, AnimaMark 0.7s  infinite;
+}
 
+@keyframes AnimaMark {
+    50%{
+        border-right: transparent;
+    }
+}
+
+@keyframes AnimaText{
+    0%{
+        width: 0;
+    }
+
+    40%{
+        width: 45ch;
+    }
+
+    60%{
+        width: 45ch;
+    }
+
+    100%{
+        width: 0;
+    }
 }
 
 .container {
@@ -130,6 +168,10 @@ h4{
     margin: 8px;
 }
 
+h2{
+    font-size: 2.2rem;
+}
+
 .avaliaçoes{
     display: flex;
     flex-direction: column;
@@ -157,6 +199,7 @@ h4{
 .subtext{
     margin-top: 4px;
     margin-bottom: 4px;
+    font-size: 1.5rem;
 }
 
 
@@ -239,6 +282,38 @@ footer {
     border-bottom: solid 2px #006c94;
 }
 
+#cta1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#desc1{
+    width: 40%;
+    font-size: 2rem;
+}
+
+#cta2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#desc2{
+    width: 40%;
+    font-size: 1.4rem;
+}
+
+.most{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 3px #006c94;
+    padding: 3px;
+}
+
 .garantia{
     display: flex;
     justify-content: center;
@@ -261,6 +336,10 @@ footer {
     margin-inline: 7%;
 }
 
+#foot{
+    font-size: 1.1rem;
+}
+
 @media screen and (max-width: 768px) {
     .card {
         min-width: 10px;
@@ -272,6 +351,11 @@ footer {
         display: flex;
         min-height: 0;
         margin-block: 30px;
+    }
+
+    #desc{
+        max-width: 100vw;
+        font-size: 0.75rem;
     }
 
     .divcdd{
@@ -291,8 +375,8 @@ footer {
         padding: 0;
     }
 
-    .beneficios, .avaliaçoes{
-        margin-inline: 3%;
+    .beneficios, .avaliaçoes, .produtos{
+        margin-inline: 4%;
     }
 
     .carrossel{
@@ -317,12 +401,64 @@ footer {
         margin-inline: 6%;
     }
 
-    h1, h2, li, p {
+    h1, h2{
+        font-size: 1.8rem;
         text-align: center;
+    }
+
+    li, p, h4{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    p, li, h4{
+        font-size: 1.3rem;
+    }
+
+    #foot{
+        font-size: 1.1rem;
     }
 
     #titulo {
         font-size: 40px;
+    }
+
+    #cta1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    #desc1{
+        width: 90%;
+        font-size: 1.3rem;
+        margin-top: 40px;
+    }
+    
+    #cta2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px ;
+    }
+    
+    #desc2{
+        width: 90%;
+        font-size: 1.3rem;
+        margin-top: 40px;
+    }
+    
+    .most{
+        width: 90vw;
+        height: 90vw;
+        border-radius: 50%;
+        border: solid 3px #006c94;
+        padding: 3px;
+        margin-block: 20px;
     }
 }
 
